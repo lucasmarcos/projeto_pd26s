@@ -1,14 +1,14 @@
 {
   "dependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
     "expo": "latest",
     "react": "latest",
     "react-native": "latest",
-    "typescript": "latest",
-    "@react-navigation/native": "latest",
-    "@react-navigation/native-stack": "latest",
     "react-native-safe-area-context": "latest",
     "react-native-screens": "latest",
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest"
+    "typescript": "latest"
   }
 }
