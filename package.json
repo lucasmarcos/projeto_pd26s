@@ -1,20 +1,20 @@
 {
-	"dependencies": {
-		"@babel/core": "latest",
-		"@babel/preset-env": "latest",
-		"@expo/webpack-config": "latest",
-		"@react-navigation/native": "latest",
-		"@react-navigation/native-stack": "latest",
-		"expo": "latest",
-		"react": "latest",
-		"react-dom": "latest",
-		"react-native": "latest",
-		"react-native-safe-area-context": "latest",
-		"react-native-screens": "latest",
-		"react-native-web": "latest",
-		"typescript": "latest",
-		"@types/react": "latest",
-		"@types/react-native": "latest"
-	}
+  "dependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@expo/webpack-config": "latest",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "@types/react": "latest",
+    "@types/react-native": "latest",
+    "expo": "latest",
+    "firebase": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-native": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-web": "latest",
+    "typescript": "latest"
+  }
 }
-
