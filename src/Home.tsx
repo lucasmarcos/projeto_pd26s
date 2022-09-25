@@ -1,13 +1,10 @@
 import { Button, StyleSheet, View } from "react-native";
 
 export const Home = ({ navigation }) => {
-  const NavButton = ({ route }) => {
-    return (
-      <View style={styles.buttonView}>
-        <Button title={route} onPress={_ => navigation.navigate(route)} />
-      </View>
-    );
-  };
+  const NavButton = ({ route }) =>
+    <View style={styles.buttonView}>
+      <Button title={route} onPress={_ => navigation.navigate(route)} />
+    </View>;
 
   return (
     <View style={styles.container}>
