@@ -1,18 +1,22 @@
 import { Button, StyleSheet, View } from "react-native";
 
 export const Home = ({ navigation }) => {
-	const makeButton = (route) => (
-		<View style={styles.buttonView}>
-			<Button title={route} onPress={_ => navigation.navigate(route)}/>
-		</View>
-	);
+  const NavButton = ({ route }) => {
+    return (
+      <View style={styles.buttonView}>
+        <Button title={route} onPress={_ => navigation.navigate(route)}/>
+      </View>
+    );
+  };
 
 	return (
 		<View style={styles.container}>
-			{makeButton("Aluno")}
-			{makeButton("Projeto")}
-			{makeButton("Professor")}
-			{makeButton("Pesquisa")}
+			<NavButton route="Login"/>
+			<NavButton route="Cadastro"/>
+			<NavButton route="Aluno"/>
+			<NavButton route="Projeto"/>
+			<NavButton route="Professor"/>
+			<NavButton route="Pesquisa"/>
 		</View>
 	);
 };
