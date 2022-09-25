@@ -19,7 +19,7 @@ const firebaseApp = initializeApp({
   projectId: "pd26s-ad736",
   storageBucket: "pd26s-ad736.appspot.com",
   messagingSenderId: "667563279286",
-  appId: "1:667563279286:web:b3ad8fb1fd6159fb433717"
+  appId: "1:667563279286:web:b3ad8fb1fd6159fb433717",
 });
 
 const firebaseAuth = getAuth(firebaseApp);
@@ -31,13 +31,13 @@ export default () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home}/>
-        <Stack.Screen name="Login" component={Login}/>
-        <Stack.Screen name="Cadastro" component={Cadastro}/>
-        <Stack.Screen name="Aluno" component={Aluno}/>
-        <Stack.Screen name="Professor" component={Professor}/>
-        <Stack.Screen name="Projeto" component={Projeto}/>
-        <Stack.Screen name="Pesquisa" component={Pesquisa}/>
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Cadastro" component={Cadastro} />
+        <Stack.Screen name="Aluno" component={Aluno} />
+        <Stack.Screen name="Professor" component={Professor} />
+        <Stack.Screen name="Projeto" component={Projeto} />
+        <Stack.Screen name="Pesquisa" component={Pesquisa} />
       </Stack.Navigator>
     </NavigationContainer>
   );
