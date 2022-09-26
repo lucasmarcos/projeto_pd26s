@@ -1,10 +1,11 @@
 import { Button, StyleSheet, View } from "react-native";
 
 export const Home = ({ navigation }) => {
-  const NavButton = ({ route }) =>
+  const NavButton = ({ route }) => (
     <View style={styles.buttonView}>
-      <Button title={route} onPress={_ => navigation.navigate(route)} />
-    </View>;
+      <Button title={route} onPress={(_) => navigation.navigate(route)} />
+    </View>
+  );
 
   return (
     <View style={styles.container}>
@@ -24,6 +25,6 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   buttonView: {
-    padding: 16,
+    margin: 16,
   },
 });

@@ -1,21 +1,24 @@
 import { View, Text, TextInput, Button } from "react-native";
 
-const Usuario = () =>
+const Usuario = () => (
   <View>
     <Text>Usuário</Text>
     <TextInput />
-  </View>;
+  </View>
+);
 
-const Senha = () =>
+const Senha = () => (
   <View>
     <Text>Senha</Text>
     <TextInput />
-  </View>;
+  </View>
+);
 
-const Botao = () =>
+const Botao = () => (
   <View>
     <Button title="Entrar" />
-  </View>;
+  </View>
+);
 
 export const Login = () => {
   return (
